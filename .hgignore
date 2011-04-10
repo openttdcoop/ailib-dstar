@@ -1,0 +1,22 @@
+# Use glob syntax:
+syntax: glob
+
+# The local makefile should be ignored
+Makefile.local
+
+# Ignore directories and compiler stuff
+DStar*
+\.tar$
+
+# Ignore the editor leftovers
+\.orig$
+\.bak$
+\.log$
+\.rej$
+\.diff$
+\.project$
+\.stuff$
+
+# And the Mac stuff
+**/.DS_Store
+**/Thumbs.db
